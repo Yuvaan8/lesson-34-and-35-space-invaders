@@ -20,7 +20,7 @@ class Player:
         self.y = SCREEN_HEIGHT - self.size - 50
         self.vel_y = 0
         self.gravity = 0.8
-        self.jump_power = -16
+        self.jump_power = -16    
         self.is_grounded = True
     def jump(self):
         if self.is_grounded:
