@@ -11,7 +11,7 @@ BLUE = (50, 150, 255)
 RED = (255, 80, 80)
 GREEN = (46, 204, 113)
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Trigonometry Sprint")
+pygame.display.set_caption("Trigonometry Sprint by me once more")
 clock = pygame.time.Clock()
 class Player:
     def __init__(self):

@@ -10,7 +10,7 @@ ENEMY_START_Y_MAX = 150
 ENEMY_SPEED_X = 4
 ENEMY_SPEED_Y = 40
 BULLET_SPEED = 10
-COLLISION_DISTANCE = 27
+COLLISION_DISTANCE = 100
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption('Space Invaders')
