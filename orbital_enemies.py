@@ -13,7 +13,7 @@ BULLET_SPEED = 10
 COLLISION_DISTANCE = 100
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption('Space Invaders')
+pygame.display.set_caption('Orbital Enemies')
 background = pygame.image.load('bg.png')
 icon = pygame.image.load('ufo.png')
 pygame.display.set_icon(icon)
